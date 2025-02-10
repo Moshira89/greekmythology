@@ -14,7 +14,7 @@ app.set("view engine","ejs")
 app.use(express.static(path.join(__dirname, "public")))
 
 app.get("/", (req, res) => {
-    res.render("pages/home", { 
+    res.render("pages/index", { 
         headTitle: "Greek Mythology",
         title: "Moshira's page on Greek Mythology",
         subtitle: "Explore the myths and legends!"
