@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(113, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body.gods{
+    background-color: cornflowerblue;
+}
+
+body.heroes{
+    background-color: coral;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header__title--container{
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__title{
+    font-size: 3rem;
+}
+
+@media  screen and (max-width:768px) {
+    .header{display: block;
+    }
+    .header__image{
+        display: block;
+        margin: auto;
+    }
+}
