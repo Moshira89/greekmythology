@@ -6,7 +6,7 @@ import * as path from "path";
 
 const app = express();
 const PORT = 3000;
-const__dirname = path.resolve;
+const __dirname = path.resolve();
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine","ejs")
